@@ -8,5 +8,10 @@ Some tips might seem very obvious or dumb but it's always important to remember 
 ## JavaScript
 
 * [Vanilla](JavaScript/Vanilla.md)
+* [ES6](JavaScript/ES6.md)
+
+## Misc.
+
+* [Dev Tools](Misc/Chrome-dev-tools.md)
 
 Branch is named urban-couscous because Github suggested it and I found it cool.
