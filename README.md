@@ -13,12 +13,13 @@ Some tips might seem very obvious or dumb but it's always important to remember 
 ## PHP
 * [Misc](Php/Misc.md)
 * [Symfony](Php/Symfony.md)
+* [Wordpress](Php/Wordpress.md)
 
 ## Git
 * [Commands](Git/Commands.md)
 
 ## CSS
-* [style](CSS/style.md)
+* [Style](CSS/style.md)
 
 ## C#
 
@@ -26,8 +27,17 @@ Some tips might seem very obvious or dumb but it's always important to remember 
 ## Ruby On Rails
 
 
+## Linux
+
+* [Commands](Linux/Commands.md)
+
 ## Misc.
 
 * [Dev Tools](Misc/Chrome-dev-tools.md)
+
+## SQL
+
+* [MySql](Sql/mysql.md)
+
 
 *Branch is named urban-couscous because Github suggested it and I found it cool.
