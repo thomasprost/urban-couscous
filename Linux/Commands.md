@@ -35,3 +35,13 @@ s to limit to folder only (doesn't list all files inside)
 ````
 sudo su
 ````
+
+#### Tar gzip archive
+````
+// Creation
+tar zcvf archive.tar.gz folderToCompress/
+
+// Extraction
+tar zxvf archive.tar.gz
+-c to set the folder to extract to
+````

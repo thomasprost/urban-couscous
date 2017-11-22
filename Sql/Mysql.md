@@ -1,5 +1,10 @@
 ### MySql
 
+#### Connect to database with host
+````
+mysql -u username -p -h hostname
+````
+
 #### Export Database
 ````
 mysqldump -u YourUser -p YourDatabaseName > wantedsqlfile.sql

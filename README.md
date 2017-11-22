@@ -37,7 +37,7 @@ Some tips might seem very obvious or dumb but it's always important to remember 
 
 ## SQL
 
-* [MySql](Sql/mysql.md)
+* [MySql](Sql/Mysql.md)
 
 
 *Branch is named urban-couscous because Github suggested it and I found it cool.
