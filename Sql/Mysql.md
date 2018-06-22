@@ -28,6 +28,12 @@ mysql> use [db name];
 mysql> show tables;
 ````
 
+#### Give access to a user
+Log in with root access
+hostname is localhost if you only want access on local machine
+````mysql
+GRANT ALL PRIVILEGES ON dbTest.* To 'user'@'hostname' IDENTIFIED BY 'password';
+````
 
 #### Unique key is too long (Limit 767 bytes)
 

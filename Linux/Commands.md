@@ -45,3 +45,9 @@ tar zcvf archive.tar.gz folderToCompress/
 tar zxvf archive.tar.gz
 -c to set the folder to extract to
 ````
+
+#### List of all starting services?
+````
+service --status-all
+````
+
