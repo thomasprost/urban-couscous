@@ -13,7 +13,12 @@ cp -R source destination/
 #### Copy files
 ````
 scp -i secure.pem webmaster@ip:/folder/* .
+
+// useful :
+// -P for port
+// Don't use the first / if you know in which folder you are when you connect to server
 ````
+Do the opposite if you want to upload files to a remote server through ssh
 
 https://www.computerhope.com/unix/scp.htm
 

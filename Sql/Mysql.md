@@ -8,6 +8,9 @@ mysql -u username -p -h hostname
 #### Export Database
 ````
 mysqldump -u YourUser -p YourDatabaseName > wantedsqlfile.sql
+
+// with host
+mysqldump -u YourUser -p -h host-url YourDatabaseName > wantedsqlfile.sql
 ````
 
 #### Import Database

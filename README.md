@@ -4,6 +4,15 @@ The point of this Repo is to compile some dev (mainly web) tips/knowledge
 I discover and keep track of all of them at the same place.
 
 Some tips might seem very obvious or dumb but it's always important to remember even simple things.
+I work on many different technologies so sometimes I forget things.
+
+## CSS
+* [Style](CSS/style.md)
+
+## C#
+
+## Git
+* [Commands](Git/Commands.md)
 
 ## JavaScript
 
@@ -15,18 +24,6 @@ Some tips might seem very obvious or dumb but it's always important to remember 
 * [Symfony](Php/Symfony.md)
 * [Wordpress](Php/Wordpress.md)
 
-## Git
-* [Commands](Git/Commands.md)
-
-## CSS
-* [Style](CSS/style.md)
-
-## C#
-
-
-## Ruby On Rails
-
-
 ## Linux
 
 * [Commands](Linux/Commands.md)
@@ -35,9 +32,10 @@ Some tips might seem very obvious or dumb but it's always important to remember 
 
 * [Dev Tools](Misc/Chrome-dev-tools.md)
 
+## Ruby On Rails
+
 ## SQL
 
 * [MySql](Sql/Mysql.md)
-
 
 *Branch is named urban-couscous because Github suggested it and I found it cool.

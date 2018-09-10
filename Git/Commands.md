@@ -28,6 +28,16 @@ git merge --no-ff :branchname
 git branch -a
 ````
 
+#### Commit files already added in the repository
+````
+git commit -a -m "message"
+````
+
+#### Commit message in multi lines
+````
+git commit -m "first message" -m "second message"
+````
+
 #### Undo git add before commit
 ````
 git reset <file>
