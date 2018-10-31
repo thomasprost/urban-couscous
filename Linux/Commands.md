@@ -46,6 +46,9 @@ sudo su
 // Creation
 tar zcvf archive.tar.gz folderToCompress/
 
+// -p to keep permissions and it will include . files (ex .htaccess)
+tar -pczf file.tar.gz *
+
 // Extraction
 tar zxvf archive.tar.gz
 -c to set the folder to extract to
