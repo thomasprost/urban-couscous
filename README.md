@@ -31,6 +31,7 @@ I work on many different technologies so sometimes I forget things.
 ## Misc.
 
 * [Dev Tools](Misc/Chrome-dev-tools.md)
+* [Keyboard Codes](Misc/Keyboard-codes.md)
 
 ## Ruby On Rails
 
