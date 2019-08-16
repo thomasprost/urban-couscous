@@ -77,3 +77,39 @@ grep -rnw '/path/to/somewhere/' -e 'pattern'
 ```
 
 https://stackoverflow.com/questions/16956810/how-do-i-find-all-files-containing-specific-text-on-linux
+
+#### Download and install binaries/cli from source
+
+```
+// Download 
+wget ***.tar.gz (For example)
+// Untar
+tar zxvf ***.tar.gz
+
+// Change directory then configure before installing
+./configure
+make
+make check
+make install
+
+```
+
+#### Show your PATH
+```
+echo $PATH
+```
+
+#### Update your PATH to point to custom binaries
+```
+// You need to add to your ~/.profile or ~/.bashrc file. 
+export PATH="$PATH:/path/to/dir"
+
+// If you need your new binary directory to be executed first, change it to :
+export PATH="/path/to/dir:$PATH"
+
+source ~/.profile 
+// or
+source ~/.bashrc
+
+// to update it 
+```
