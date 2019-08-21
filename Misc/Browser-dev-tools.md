@@ -1,6 +1,6 @@
-### Chrome Dev Tools
+### Browser Dev Tools
 
-Some of these features work in Firefox too
+These features should work in all browsers
 
 #### Clear
 
@@ -67,3 +67,9 @@ fetch('https://api.github.com/users/thomasprost')
     console.log(data);
   });
 ```
+
+### Firefox
+
+#### Shortcuts
+
+Take screenshot : Ctrl + Shift + s
