@@ -7,15 +7,27 @@ mysql -u username -p -h hostname
 
 #### Export Database
 ````
-mysqldump -u YourUser -p YourDatabaseName > wantedsqlfile.sql
+mysqldump -u YourUser -p YourDatabaseName > target_file.sql
 
 // with host
-mysqldump -u YourUser -p -h host-url YourDatabaseName > wantedsqlfile.sql
+mysqldump -u YourUser -p -h host-url databasename > target_file.sql
 ````
+
+#### Exporting only some tables from database
+````
+// For a few tables
+mysqldump -u username -p databasename table1_name table2_name table3_name > target_file.sql
+
+
+mysql databasename -u [user] -p[password] -e 'show tables like "table_name_%"' 
+       | grep -v Tables_in 
+       | xargs mysqldump [databasename] -u [root] -p [password] > [target_file]
+````
+Type the command in one line
 
 #### Import Database
 ````
-mysql -u YourUser -p OtherDatabaseName < wantedsqlfile.sql
+mysql -u YourUser -p OtherDatabaseName < target_file.sql
 ````
 
 #### Useful commands
