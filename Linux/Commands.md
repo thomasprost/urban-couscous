@@ -55,6 +55,9 @@ tar cvpfz file.tar.gz *
 // Extraction
 tar zxvf archive.tar.gz
 -c to set the folder to extract to
+
+// Display files without extracting
+tar -tf filename.tar.gz
 ```
 
 #### List of all starting services?

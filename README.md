@@ -23,6 +23,7 @@ I work on many different technologies so sometimes I forget things.
 * [Misc](Php/Misc.md)
 * [Symfony](Php/Symfony.md)
 * [Wordpress](Php/Wordpress.md)
+* [Magento2](Php/Magento2.md)
 
 ## Linux
 
