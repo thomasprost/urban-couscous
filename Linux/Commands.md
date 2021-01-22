@@ -116,3 +116,21 @@ source ~/.bashrc
 
 // to update it 
 ```
+
+#### Manage History
+
+```
+// Check command history
+history
+
+// Remove specific line
+history -d 1234
+
+//Additionally, if the line you want to delete has already been written to your $HISTFILE
+//(which typically happens when you end a session by default), you will need to write back to $HISTFILE, 
+// or the line will reappear when you open a new session:
+  
+history -w
+
+```
+Source : https://unix.stackexchange.com/a/49216
