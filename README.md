@@ -28,6 +28,7 @@ I work on many different technologies so sometimes I forget things.
 ## Linux
 
 * [Commands](Linux/Commands.md)
+* [Fish Alias and Commands](Linux/config.fish)
 
 ## Misc.
 
