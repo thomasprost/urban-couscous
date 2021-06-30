@@ -6,13 +6,36 @@
 ln -s website/web/ htdocs
 ```
 
-#### Copy folder
+#### Copy folders and files
 
 ```
-cp -R source destination/
+cp -r source destination
 ```
 
-#### Copy files
+Keep ownership and permissions when copying
+```
+cp -rp source destination
+```
+
+Include hidden files and dotfiles when copying
+
+```
+Don't specify the files
+cp -r source destination
+
+or if want to copy all files inside a folder
+cp -r source/. destination
+```
+
+Force Copy without confirmation
+
+```
+Use ONE backslash before cp (Markdown displays  but it's just one
+``\``cp -r source destination
+```
+
+
+#### Download/Upload files over ssh 
 
 ```
 scp -i secure.pem webmaster@ip:/folder/* .
