@@ -30,7 +30,7 @@ cp -r source/. destination
 Force Copy without confirmation
 
 ```
-Use ONE backslash before cp (Markdown displays  but it's just one
+Use ONE backslash before cp
 \cp -r source destination
 ```
 
