@@ -17,6 +17,7 @@ On Windows, use alt + code to add the letter.
 | €    | 0128 |
 | œ    | 0156 |
 | Á    | 0192 |
+| ô    | 147 |
 
 
 This is not exhaustive, just the letters I use a lot. 
