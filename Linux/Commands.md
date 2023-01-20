@@ -156,7 +156,6 @@ history -d 1234
 history -w
 
 ```
-Source : https://unix.stackexchange.com/a/49216
 
 ### Preventative measures
 
@@ -171,3 +170,6 @@ For this to work you need either ignorespace or ignoreboth in HISTCONTROL. For e
 HISTCONTROL=ignorespace
 
 To make this setting persistent, put it in your .bashrc and source .bashrc
+
+
+Source : https://unix.stackexchange.com/a/49216
