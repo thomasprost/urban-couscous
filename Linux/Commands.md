@@ -157,3 +157,17 @@ history -w
 
 ```
 Source : https://unix.stackexchange.com/a/49216
+
+### Preventative measures
+
+If you want to run a command without saving it in history, prepend it with an extra space
+```bash
+prompt$ echo saved
+prompt$  echo not saved \
+> #     ^ extra space
+```
+For this to work you need either ignorespace or ignoreboth in HISTCONTROL. For example, run
+
+HISTCONTROL=ignorespace
+
+To make this setting persistent, put it in your .bashrc and source .bashrc
