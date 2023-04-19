@@ -22,6 +22,14 @@ function yb
     yarn build
 end
 
+function npmd
+    npm run dev
+end
+
+function npmb
+    npm run build
+end
+
 function gs
     git status
 end
@@ -45,3 +53,6 @@ end
 function gch 
     git checkout $argv
 end
+
+export FLYCTL_INSTALL="/home/yokai-ku/.fly"
+export PATH="$FLYCTL_INSTALL/bin:$PATH"
